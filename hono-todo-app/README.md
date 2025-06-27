@@ -1,4 +1,4 @@
-# Task Management System (ToDo App)
+# Task Management API – Hono.js + Drizzle + PostgreSQL
 
 A modern, secure task management API built with Hono.js, Drizzle ORM, and PostgreSQL.
 
@@ -181,7 +181,7 @@ All API responses follow a consistent format:
 ```json
 {
   "success": true,
-  "data": { ... },
+  "data": {...},
   "message": "Operation completed successfully"
 }
 ```
@@ -191,7 +191,7 @@ All API responses follow a consistent format:
 {
   "success": false,
   "message": "Error description",
-  "errors": [ ... ] // Validation errors (if applicable)
+  "errors": [...] // Validation errors (if applicable)
 }
 ```
 
@@ -206,6 +206,13 @@ All API responses follow a consistent format:
 - [ ] Search functionality
 - [ ] Bulk operations
 
-## 📄 License
 
+## 📄 License
 This project is licensed under the ISC License. 
+
+## Contact
+For questions or feedback, feel free to reach out:
+
+Email: alimadkour2001@gmail.com
+
+GitHub: alimadkour96
